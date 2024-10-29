@@ -19,6 +19,6 @@ Feature: US01 - Autenticación
     And completa los campos de correo y contraseña
     Then la app permite ingresar si la información es correcta
     Examples:
-      | input                             | output                         |
-      | Correo y contraseña válidos       | Ingreso exitoso                |
+      | input                             | output                           |
+      | Correo y contraseña válidos       | Ingreso exitoso                  |
       | Correo o contraseña inválidos     | Error: "Credenciales incorrectas"|
