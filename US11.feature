@@ -1,4 +1,4 @@
-Feature:
+Feature: US11 - Recomendaciones personalizadas de productos
   Como usuario
   Quiero recibir recomendaciones de productos basadas en mi estilo
   Para optimizar mi rutina de belleza con productos adecuados
