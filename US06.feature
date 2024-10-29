@@ -8,9 +8,9 @@ Feature: US06 - Simulación de corte de cabello en RA
     When elige un estilo de corte
     Then la aplicación muestra la simulación en RA del estilo seleccionado
     Examples:
-      | input                    | output                                  |
-      | Estilo de corte "Pixie"  | Visualización del estilo Pixie en RA    |
-      | Estilo de corte no válido| Error: "Estilo no disponible"           |
+      | input                     | output                               |
+      | Estilo de corte "Pixie"   | Visualización del estilo Pixie en RA |
+      | Estilo de corte no válido | Error: "Estilo no disponible"        |
 
   Scenario: Escenario 02 - Guardar simulación preferida
     Given el usuario está visualizando un corte de cabello en RA
