@@ -8,6 +8,6 @@ Feature: US02 - Edición de la información de perfil
     When hace clic en el ícono "Mi cuenta" y selecciona "Configuración"
     Then se muestran los datos del usuario con un ícono de lápiz para editar 
     Examples:
-    |input                       |output                               |
-    |Cambiar nombre y correo     |Información actualizada correctamente|
-    |Dejar campo obigatorio vacío|Error:"Este campo es obligatorio"    |
+    | input                        | output                                |
+    | Cambiar nombre y correo      | Información actualizada correctamente |
+    | Dejar campo obigatorio vacío | Error:"Este campo es obligatorio"     |
