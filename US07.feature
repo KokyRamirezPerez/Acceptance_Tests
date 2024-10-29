@@ -1,4 +1,4 @@
-Feature: US08 - Simulación de procedimientos dentales en RA
+Feature: US07 - Simulación de procedimientos dentales en RA
   Como usuario
   Quiero ver una simulación de un procedimiento dental en realidad aumentada
   Para visualizar el resultado potencial del tratamiento
