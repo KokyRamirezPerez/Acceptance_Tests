@@ -9,9 +9,9 @@ Feature: US01 - Autenticación
     Then la aplicación muestra la pantalla de registro de nuevo usuario
     And el usuario puede completar su información para crear una cuenta
     Examples:
-      | input                         | output                           |
-      | Nombre, correo, contraseña    | Cuenta creada correctamente      |
-      | Nombre vacío                  | Error: "El nombre es obligatorio"|
+      | input                         | output                            |
+      | Nombre, correo, contraseña    | Cuenta creada correctamente       |
+      | Nombre vacío                  | Error: "El nombre es obligatorio" |
 
   Scenario: Escenario 02 - Ingresar por otro dispositivo
     Given el usuario no tiene su cuenta registrada en el dispositivo actual
@@ -19,6 +19,6 @@ Feature: US01 - Autenticación
     And completa los campos de correo y contraseña
     Then la app permite ingresar si la información es correcta
     Examples:
-      | input                             | output                           |
-      | Correo y contraseña válidos       | Ingreso exitoso                  |
-      | Correo o contraseña inválidos     | Error: "Credenciales incorrectas"|
+      | input                             | output                            |
+      | Correo y contraseña válidos       | Ingreso exitoso                   |
+      | Correo o contraseña inválidos     | Error: "Credenciales incorrectas" |
